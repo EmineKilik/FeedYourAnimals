@@ -11,7 +11,7 @@ public class MoveForward : MonoBehaviour
         
     }
 
-    //Ýleriye doðru hareket saðlar.
+    //Ä°leriye doÄŸru hareket saÄŸlar.
     void Update()
     {
         transform.Translate(Vector3.forward * Time.deltaTime * speed);
