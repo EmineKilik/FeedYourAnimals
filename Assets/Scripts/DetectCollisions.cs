@@ -16,7 +16,7 @@ public class DetectCollisions : MonoBehaviour
         
     }
 
-    //Birbirine deðen nesneleri yok eder.
+    //Birbirine deÄŸen nesneleri yok eder.
     private void OnTriggerEnter(Collider other)
     {
         Destroy(gameObject);
