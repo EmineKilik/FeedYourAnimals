@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
     
     void Update()
     {
-        //Sınırlar içerisinde yatay hareket sağlar.
+        //SÄ±nÄ±rlar iÃ§erisinde yatay hareket saÄŸlar.
         if (transform.position.x < -xRange)
         {
             transform.position = new Vector3(-xRange, transform.position.y, transform.position.z);
@@ -30,7 +30,7 @@ public class PlayerController : MonoBehaviour
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * speed);
 
-        //Mermi üretir.
+        //Mermi Ã¼retir.
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
