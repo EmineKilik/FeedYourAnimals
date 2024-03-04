@@ -12,7 +12,7 @@ public class DestroyOutOfBounds : MonoBehaviour
 
     }
 
-    //Ekran dýþýna çýkan nesneleri yok eder.
+    //Ekran dÄ±ÅŸÄ±na Ã§Ä±kan nesneleri yok eder.
     void Update()
     {
         if (transform.position.z > topBound)
