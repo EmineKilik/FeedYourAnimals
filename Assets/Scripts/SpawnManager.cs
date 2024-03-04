@@ -12,7 +12,7 @@ public class SpawnManager : MonoBehaviour
 
     void Start()
     {
-        //Belirli aralýklarla fonksiyonu çalýþtýrýr.
+        //Belirli aralÄ±klarla fonksiyonu Ã§alÄ±ÅŸtÄ±rÄ±r.
         InvokeRepeating("SpawnRandomAnimal", startDelay, spawnInterval);
     }
 
@@ -22,7 +22,7 @@ public class SpawnManager : MonoBehaviour
 
     }
 
-    //Random konumlarda random hayvan üretir.
+    //Random konumlarda random hayvan Ã¼retir.
     void SpawnRandomAnimal()
     {
         int animalIndex = Random.Range(0, animalPrefabs.Length);
